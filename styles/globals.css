@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Font placeholder — when you have Acadflux, add @font-face here and wrap body with .brand-font */
+:root { --brand-font: 'Acadflux', ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, 'Apple Color Emoji', 'Segoe UI Emoji'; }
+.brand-font { font-family: var(--brand-font); }
